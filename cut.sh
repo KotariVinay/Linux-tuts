@@ -14,6 +14,7 @@ doc
 if [ $# -ne 0 ]
 then
     cut -b 3
+    echo "$#"
 else
     echo "Error : Please pass the file name through command line."
 fi
